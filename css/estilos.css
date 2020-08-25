@@ -1,0 +1,104 @@
+/* Variables mas utilizadas */
+:root{
+    --color-mas-usado: #2c3e50;
+    --color-letra: azure;
+}
+
+
+.header {
+    background-color: var(--color-mas-usado);
+    display: flex;
+}
+
+aside{
+    background-color: var(--color-mas-usado);
+    text-c;
+}
+footer{
+    background-color: var(--color-mas-usado);
+    color: var(--color-letra);
+    margin-top: 11%;
+    height: 16%;
+}
+
+
+img.pequenia{
+    width: 50px; height: 50px;
+}
+
+img.mediana{
+    width: 400px; height: 200px;
+    box-shadow: black;
+}
+
+img.grande{
+    width: 180px; height: 220px;
+}
+
+button.comprar{
+    width: 108%;
+}
+button.comprar3{
+    width: 115%;
+}
+
+p.texto{
+    font-family: 'Quicksand', sans-serif;
+}
+h3.preguntas{
+    font-family: 'Lobster', cursive ;
+}
+h3.otroContacto{
+    padding-left: 30%;
+    color: var(--color-letra);
+}
+h3.otroContacto1{
+    padding-left: 25%;
+    color: var(--color-letra);
+}
+h2.extrabagante{
+    font-family: 'Modak', cursive;
+}
+h1.titulo{
+    font-family: 'Sigmar One', cursive;
+}
+.color1{
+    background-color: aqua;
+}
+
+.letraHeader{
+    font-family: 'Balsamiq Sans', cursive;
+    color: #F5F6FF;
+}
+
+.letraContacto{
+    color: var(--color-letra);
+    font-family: 'DM Mono', monospace;
+}
+
+.flex{
+    display: flex;
+}
+.padding{
+    padding: 10%;
+}
+.letraExtrabagante{
+    font-family: 'Modak', cursive;
+}
+.centro{
+    text-align: center;
+}
+footer div{
+    display: flex;
+}
+
+.imgFooter{
+    width: 30px; 
+    height: 30px;
+}
+
+.imgFooter2{
+    padding-left: 10px;
+    width: 50px; 
+    height: 39px;
+}
