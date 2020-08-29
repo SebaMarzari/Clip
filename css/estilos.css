@@ -1,7 +1,7 @@
 /* Variables mas utilizadas */
 :root{
-    --color-mas-usado: #2c3e50;
-    --color-letra: azure;
+    --color-mas-usado: #1B6DC1;;
+
 }
 
 
@@ -27,7 +27,7 @@ img.pequenia{
 }
 
 img.mediana{
-    width: 400px; height: 200px;
+    width: 150px; height: 120px;
     box-shadow: black;
 }
 
