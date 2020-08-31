@@ -4,27 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Soltecs 3D</title>
 </head>
 <body style="background-color: #C5C5C5;">
-    <nav class="header">
-        <h1 class="letraHeader">Impresiones 3D</h1>
+    <nav class="header container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img mediana" src="../images/logo.jpeg">
+            </div>
+            <div class="col-md-4"><h1 class="letraHeader">Impresiones 3D</h1></div>
+            <div class="col-md-4 float-right align-self-end">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" style="color:#332727 ;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" style="color:#332727 ;">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" style="color:#332727 ;">Contact</a>
+                    </li>
+                </ul>
+                </div>
+                </div>
+            </div>
     </nav>
-    <form align = "center">
-        <label>Nombre </label><br>
-        <input type="text" id="nombre"><br>
-        <label>Apellido </l2abel><br>
-        <input type="text" id="apellido"><br>
-        <label>Número de tarjeta</label><br>
-        <input type="text" id="numTarjeta"><br>
-        <label>Tutilar de la tarjeta</label><br>
-        <input type="text" id="titTarjeta"><br>
-        <label>Fecha de expiración</label><br>
-        <input type="text" id="fechaExp"><br>
-        <label>Código de seguridad</label><br>
-        <input type="text" id="codSeguridad"><br>
-        <button>Pagar</button>
-    </form>
+    <form class="container">
+        <div class="form-row">
+          <div class="col-md-3 mb-2">
+            <label for="validationServer01">Nombre</label>
+            <input type="text" class="form-control" id="validationServer01" placeholder="Ingresar Nombre" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Apellido</label>
+            <input type="text" class="form-control" id="validationServer02" placeholder="Ingrese apellido" required>
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-5 mb-3">
+                <label for="validationCardNumber">Número de tarjeta</label>
+                <div class="input-group">
+                <input type="text" class="form-control" id="validationCardNumber" placeholder="Numero de Tarjeta" required>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+            <label for="validationServer03">Titular de la Tarjeta</label>
+            <input type="text" class="form-control" id="validationServer03" placeholder="Ingresar Nombre" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">Fecha de expiración</label>
+            <input type="text" class="form-control" id="validationServer04" placeholder="DD/MM/AA" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer05">Código de seguridad</label>
+            <input type="text" class="form-control" id="validationServer05" placeholder="123" required>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Pagar</button>
+      </form>
     <footer class="footer">
         <div>
             <h3>Contactenos!</h3>
@@ -34,5 +73,8 @@
             <a href="https://wa.me/+543584160191" style="padding-right: 5%; padding-left: 5%; padding-top: 0.3%;"><img class="img pequenia" src="../images/whatsapp.png"></a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
