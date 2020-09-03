@@ -1,6 +1,6 @@
 /* Variables mas utilizadas */
 :root{
-    --color-mas-usado: #1B6DC1;;
+    --color-mas-usado: #1B6DC1;
 
 }
 
@@ -17,7 +17,7 @@ aside{
 footer{
     background-color: var(--color-mas-usado);
     color: var(--color-letra);
-    margin-top: 11%;
+    margin-top: 15%;
     height: 16%;
 }
 
@@ -102,3 +102,4 @@ footer div{
     width: 50px; 
     height: 39px;
 }
+
