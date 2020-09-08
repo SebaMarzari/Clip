@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/logo.jpeg">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Soltecs 3D</title>
 </head>
@@ -25,7 +25,7 @@
                     <a class="nav-link" id="profile-tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" style="color:#332727 ;">Profile</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" href="../html/game.html" role="tab" aria-controls="contact" aria-selected="false" style="color:#332727 ;">Descuentos</a>
+                    <a class="nav-link" id="contact-tab" href="../html/juego.html" role="tab" aria-controls="contact" aria-selected="false" style="color:#332727 ;">Descuentos</a>
                     </li>
                 </ul>
                 </div>
@@ -42,11 +42,37 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                <h2 class="text-center">Que error de impresión es este?</h2>
             </div>
             <div class="col-md-4"></div>
         </div>
-
+        <input type="text" class="form-control" id="errorImp">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center" style="padding-top: 10px;">
+                <button class="btn btn-primary" type="submit" id="btnGame">Enviar</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center" style="padding-top: 10px;">
+                <div id = "padre">
+                    <div id = "label" data-highcharts-chart="0">
+                        <label id = "text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <p>Intentos probados</p>
+            <div id = "resultado" style="padding-left: 5%;"></div>
+        </div>
+        <div class="row">
+            <p>Estado de intentos</p>
+            <div id = "estado" style="padding-left: 5%;"></div>
+        </div>
     </div>
     
     <footer class="footer">
@@ -61,6 +87,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="JS/game.js"></script>
+    <script src="../JS/juego.js"></script>
 </body>
 </html>
